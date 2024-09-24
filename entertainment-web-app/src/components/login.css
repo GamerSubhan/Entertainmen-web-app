@@ -1,0 +1,107 @@
+#webLogo
+{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+}
+
+#registerCanvas
+{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #161D2F;
+    border-radius: 8px;
+    width: 27vw;
+    height: 50vh;
+    margin-top: 13vh;
+}
+
+h2
+{
+    color: white;
+    margin-top: 4vh;
+    margin-left: -20vw;
+    position: absolute;
+}
+
+input
+{
+    background: transparent;
+    border-right: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    border-bottom: solid 1.5px #5A698F;
+    color: white;
+    text-indent: 1vw;
+}
+
+input:focus
+{
+    outline: none;
+    border-bottom: solid 2px white;
+}
+
+#emailInput
+{
+    margin-top: 11vh;
+    width: 23vw;
+    height: 5vh;
+    position: absolute;
+}
+
+#passwordInput
+{
+    margin-top: 20vh;
+    width: 23vw;
+    position: absolute;
+    height: 5vh;
+}
+
+button
+{
+    position: absolute;
+    margin-top: 30vh;
+    width: 23vw;
+    background-color: #FC4747;
+    color: white;
+    border-color: transparent;
+    border-radius: 6px;
+    height: 7vh;
+}
+
+button:active
+{
+    background-color: white;
+    color: #161D2F;
+}
+
+h4
+{
+    color: white;
+    position: absolute;
+    margin-top: 42vh;
+}
+
+#errorMsg
+{
+    display: none;
+    color: #FC4747;
+    position: relative;
+    margin-top: 12vh;
+    margin-left: 14vw;
+}
+
+#passwordMsg
+{
+    display: none;
+    color: #FC4747;
+    position: absolute;
+    margin-top: 21vh;
+    margin-left: 14vw;
+}

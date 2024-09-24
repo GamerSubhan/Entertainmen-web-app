@@ -1,0 +1,87 @@
+#navBar
+{
+    text-align: center;
+    height: 95vh;
+    width: 7vw;
+    background-color: #161D2F;
+    border-radius: 18px;
+    margin-left: 2vw;
+    margin-top: 2vh;
+}
+
+#avatarImg
+{
+    position: relative;
+    margin-top: 80vh;
+    border: 1px solid white;
+    border-radius: 360px;
+}
+
+#searchInput
+{
+    width: 65vw;
+    border: none;
+    margin-left: 3vw;
+    line-height: 1vh;
+}
+
+#searchInput:focus
+{
+    border-bottom: 1px solid white;
+}
+
+#searchCanvas
+{
+    position: absolute;
+    margin-top: -90vh;
+    margin-left: 12vw;
+}
+
+#searchLogo
+{
+    position: absolute;
+    margin-top: -1.8vh;
+    transform: scale(0.8); 
+}
+
+#trendTitle
+{
+    color: white;
+    position: absolute;
+    margin-top: -86vh;
+    margin-left: 13vw;
+    font-weight: 4s00;
+}
+
+.trendingList{
+    position: relative;
+    margin-top: -78vh;
+    margin-left: 9vw;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+li{
+    font-size: 0.8em;
+    margin-left: 3vw;
+}
+
+#recommendationTitle
+{
+    color: white;
+    margin-left: 13vw;
+    margin-top: 20vh;
+}
+
+.recommendedList
+{
+    margin-top: -32vh;
+    margin-left: 7vw;
+}
+
+.recommendedTitle
+{
+    color: white;
+    margin-left: 8vw;
+}
